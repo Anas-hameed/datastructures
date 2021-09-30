@@ -60,23 +60,23 @@ public class Stack{
 	}
 	
 	//main function to run the program.
-	public static void main(String [] args){
-		//create a Stack.
-		System.out.println("STACK");
-		Stack stack = new Stack();
-		
-		stack.push(10); //push num=10
-		stack.push(20); //push num=20
-		stack.push(30); //push num=30
-		stack.display();//display stack.
-
-		stack.pop();    //pop element.
-		stack.display();//display stack.
-		stack.push(40); //push num=40
-		stack.display();//display stack.
-		stack.pop();    //pop num.
-		stack.display();//display stack.
-		stack.pop();    //pop element 
-		stack.display();//display stack
-	}
+//	public static void main(String [] args){
+//		//create a Stack.
+//		System.out.println("STACK");
+//		Stack stack = new Stack();
+//		
+//		stack.push(10); //push num=10
+//		stack.push(20); //push num=20
+//		stack.push(30); //push num=30
+//		stack.display();//display stack.
+//
+//		stack.pop();    //pop element.
+//		stack.display();//display stack.
+//		stack.push(40); //push num=40
+//		stack.display();//display stack.
+//		stack.pop();    //pop num.
+//		stack.display();//display stack.
+//		stack.pop();    //pop element 
+//		stack.display();//display stack
+//	}
 }

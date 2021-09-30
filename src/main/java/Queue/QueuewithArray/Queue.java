@@ -77,42 +77,37 @@ public class Queue{
 		System.out.println();
 	}
 	
-	//main function to run the program.
-	static public void main(String [] args){
-		Queue queue = new Queue(5); //create a queue 
-		queue.enqueue(10); //add num = 10
-		queue.enqueue(20); //add num = 20
-		queue.enqueue(30); //add num = 30
-		queue.enqueue(40); //add num = 40 
-		queue.enqueue(50); //add num = 50
-		queue.enqueue(60); //add num = 60
-		
-		queue.display();   //display queue.
-
-		queue.dequeue();   //dequeue
-		queue.dequeue();   //dequeue
-
-		queue.display();   //display queue.
-
-		queue.enqueue(20); //add num = 20
-		
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue 
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue   
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
-		
-	}
+//	//main function to run the program.
+//	static public void main(String [] args){
+//		Queue queue = new Queue(5); //create a queue 
+//		queue.enqueue(10); //add num = 10
+//		queue.enqueue(20); //add num = 20
+//		queue.enqueue(30); //add num = 30
+//		queue.enqueue(40); //add num = 40 
+//		queue.enqueue(50); //add num = 50
+//		queue.enqueue(60); //add num = 60
+//		
+//		queue.display();   //display queue.
+//
+//		queue.dequeue();   //dequeue
+//		queue.dequeue();   //dequeue
+//
+//		queue.display();   //display queue.
+//
+//		queue.enqueue(20); //add num = 20
+//		
+//		queue.dequeue();   //dequeue
+//		queue.display();   //display queue
+//		queue.dequeue();   //dequeue
+//		queue.display();   //display queue
+//		queue.dequeue();   //dequeue
+//		queue.display();   //display queue 
+//		queue.dequeue();   //dequeue
+//		queue.display();   //display queue   
+//		queue.dequeue();   //dequeue
+//		queue.display();   //display queue
+//		queue.dequeue();   //dequeue
+//		queue.display();   //display queue
+//		
+//	}
 }
-					
-		
-	
-	
-	

@@ -86,21 +86,21 @@ public class Stack{
 		return size;
 	}
 	
-	static public void main(String [] args){
-		Stack stack = new Stack(); //create new stack.
-		stack.push(10);            //push num = 10
-		stack.push(20);            //push num = 20
-		stack.push(30);            //push num = 30
-
-		stack.display();           //display stack.
-		stack.top();
-		
-		stack.pop();               //pop topmost element
-		stack.pop();               //pop topmost element
-		stack.display();           //display stack.
-		stack.pop();               //pop topmost element
-		stack.display();           //display stack.
-	}
+//	static public void main(String [] args){
+//		Stack stack = new Stack(); //create new stack.
+//		stack.push(10);            //push num = 10
+//		stack.push(20);            //push num = 20
+//		stack.push(30);            //push num = 30
+//
+//		stack.display();           //display stack.
+//		stack.top();
+//		
+//		stack.pop();               //pop topmost element
+//		stack.pop();               //pop topmost element
+//		stack.display();           //display stack.
+//		stack.pop();               //pop topmost element
+//		stack.display();           //display stack.
+//	}
 }	
 	
 			

@@ -88,17 +88,17 @@ public class LinkedList{
 	}
 
 	//main function to run the program.
-	public static void main(String [] args){
-		LinkedList list = new LinkedList();
-		list.pushFront(10);
-		list.pushBack(12);
-		list.pushFront(8);
-		list.pushFront(6);
-		
-		list.display();
-	
-		list.swap();
-		list.display();
-	}
+//	public static void main(String [] args){
+//		LinkedList list = new LinkedList();
+//		list.pushFront(10);
+//		list.pushBack(12);
+//		list.pushFront(8);
+//		list.pushFront(6);
+//		
+//		list.display();
+//	
+//		list.swap();
+//		list.display();
+//	}
 }
 		

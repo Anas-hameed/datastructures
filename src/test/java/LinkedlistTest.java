@@ -64,11 +64,11 @@ public class LinkedlistTest {
 		assertEquals(Expected3, Output.toString());
 	}
 
+	// Case 1 :: Pushing 1 at end to empty list
+	// Case 2 :: Pushing 2 at end to that  list
+	// Case 3 :: pushing 3,4,5 at end then asserted
 	@Test 
 	public void pushBackTest(){
-		//	Pushing 1 at end to empty list
-		// 	Pushing 2 at end to that  list
-		// pushing 3,4,5 at end then asserted
 
 		//assert 1
 		LinkedList.pushBack(1);

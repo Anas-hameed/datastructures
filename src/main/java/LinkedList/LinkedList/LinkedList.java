@@ -131,27 +131,27 @@ public class LinkedList{
 	}
 
 	//main functon to run the program.
-	public static void main(String [] args){
-		LinkedList list = new LinkedList();
-		list.pushFront(10);
-		list.pushBack(12);
-
-		list.display();
-
-		list.pushFront(8);
-		list.pushFront(6);
-		list.pushBack(20);
-
-		list.display();
-		
-		list.pop(3);
-		list.display();
-
-		list.popFront();
-		list.display();
-
-		list.popBack();
-		list.display();
-	}
+//	public static void main(String [] args){
+//		LinkedList list = new LinkedList();
+//		list.pushFront(10);
+//		list.pushBack(12);
+//
+//		list.display();
+//
+//		list.pushFront(8);
+//		list.pushFront(6);
+//		list.pushBack(20);
+//
+//		list.display();
+//		
+//		list.pop(3);
+//		list.display();
+//
+//		list.popFront();
+//		list.display();
+//
+//		list.popBack();
+//		list.display();
+//	}
 }
 	

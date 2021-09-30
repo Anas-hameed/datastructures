@@ -4,9 +4,9 @@ public class LinkedList{
 	int data;    
 	LinkedList nextPointer;
 	
-	static int numofElements;
-	static LinkedList headPointer;
-	static LinkedList tailPointer;
+	public static int numofElements;
+	public static LinkedList headPointer;
+	public static LinkedList tailPointer;
 
 	public LinkedList(){
 		nextPointer=null;

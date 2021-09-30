@@ -89,24 +89,24 @@ public class Array{
 	}
 
 	//main function
-	public static void main(String [] args){
-		Array array = new Array(); //create an array.
-		array.getValues(); //get values from the user.
-		array.display();   //display the array.
-
-		array.insert(10,4);//insert num=10 at pos=4
-		array.display();   //display the array.
-
-		array.delete(3);   //delete num at pos=3 from the array.
-		array.display();   //display the array.
-
-		System.out.println(array.linearSearch(40)); //check 40 is present in the array using linearSearch.
-
-		array.bubbleSort();//sort the array.
-		array.display();   //display the array.
-
-		System.out.println(array.binarySearch(56,0,size)); //search for num=56 using Binary Search.
-	}
+//	public static void main(String [] args){
+//		Array array = new Array(); //create an array.
+//		array.getValues(); //get values from the user.
+//		array.display();   //display the array.
+//
+//		array.insert(10,4);//insert num=10 at pos=4
+//		array.display();   //display the array.
+//
+//		array.delete(3);   //delete num at pos=3 from the array.
+//		array.display();   //display the array.
+//
+//		System.out.println(array.linearSearch(40)); //check 40 is present in the array using linearSearch.
+//
+//		array.bubbleSort();//sort the array.
+//		array.display();   //display the array.
+//
+//		System.out.println(array.binarySearch(56,0,size)); //search for num=56 using Binary Search.
+//	}
 }
 	
 			
